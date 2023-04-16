@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="main__body">
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo"> <a href="#"> Calculator </a> </div>
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>About</a></li>
+                            <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Home</a></li>
+                            <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Contact</a></li>
+                            <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Start</a></li>
+                        </ul>
+                    </nav>
+                    <button class="burger">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main Page -->
+    <main>
+        <div class="container">
+            <div class="main__row">
+                <div class="main__content content">
+
+                    <h1 class="content__title">Calculator</h1>
+                    <div class="content__subtitle">еlectronic computing device for performing,<br>
+                        on numbers or algebraic formulas</div>
+                    <div class="content__button">More</div>
+
+                </div>
+                <div class="main__calc">
+
+                    <div class="content">
+                        <div class="calc">
+                            <div class="items">
+                                <form name="form"><input type="text" name="textview" readonly></form>
+                                <div class="main">
+                                    <div class="buttons">
+                                        <div class="item" onclick="clean()">C</div>
+                                        <div class="item" onclick="ins('(')">(</div>
+                                        <div class="item" onclick="ins(')')">)</div>
+                                        <div class="item" onclick="oneDeletes()">&larr;</div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <div class="item" onclick="ins('1')">1</div>
+                                        <div class="item" onclick="ins('4')">4</div>
+                                        <div class="item" onclick="ins('7')">7</div>
+                                        <div class="item" onclick="ins('/')">/</div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <div class="item" onclick="ins('2')">2</div>
+                                        <div class="item" onclick="ins('5')">5</div>
+                                        <div class="item" onclick="ins('8')">8</div>
+                                        <div class="item" onclick="ins('*')">*</div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <div class="item" onclick="ins('3')">3</div>
+                                        <div class="item" onclick="ins('6')">6</div>
+                                        <div class="item" onclick="ins('9')">9</div>
+                                        <div class="item" onclick="ins('+')">+</div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <div class="item" onclick="ins('.')">.</div>
+                                        <div class="item" onclick="ins('0')">0</div>
+                                        <div class="item" onclick="ins('-')">-</div>
+                                        <div class="item" onclick="rowno()">=</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="social-menu">
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <span>Twitter</span>
+                    </div>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <span>Facebook</span>
+                    </div>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <span>Instagram</span>
+                    </div>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <span>Github</span>
+                    </div>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <span>Youtube</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="./js/scripts.min.js"></script>
+
+</html>
